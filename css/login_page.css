@@ -1,0 +1,159 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hero {
+    min-height: 100%;
+    width: 100%;
+    background-image: url("../img/loginbgblur2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-box {
+    min-width: 280px;
+    width: 25%;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    border-radius: 10px;
+    padding: 0px;
+    overflow:hidden;
+
+}
+
+.button-box{
+    min-width: 220px;
+    width: 17%;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 0px #aec3df ;
+    border-radius: 30px;
+    background-color: #929597;
+
+}
+
+.toggle-btn {
+    padding:10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline:none;
+    position: relative;
+    color: white;
+    font-size:14.5px;
+
+}
+
+.toggle-btn:hover {
+    text-decoration:underline;
+}
+
+#btn {
+    
+    top:0;
+    left:0;
+    position: absolute;
+    width:110px;
+    height:100%;
+    background-color: #135ebd;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.error-message {
+    margin: 10px auto;
+    text-align: center;
+    width: 280px;
+}
+
+.success {
+    color: rgb(9, 156, 9);
+}
+
+.fail {
+    color: red;
+}
+
+#login {
+    text-align:center;
+    /* position: absolute; */
+    left: 0px;
+    /* right: auto; */
+}
+
+#register {
+    text-align: center;
+    left: 450px;
+}
+
+
+.input-group {
+
+    top: 180px;
+    position: absolute;
+    min-width: 280px;
+    width: 100%;
+    transition: 0.5s;
+    margin-top: 25px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px 0;
+    margin:5px p;
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #7e7e7e;
+    outline: none;
+    background:transparent;
+}
+/* 
+#register, #login {
+    padding: 20px;
+} */
+
+.button {
+    
+    width: 150px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: #135ebd;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    text-align:center;
+    box-shadow: 0 0 20px 9px #a5c3eb ;
+
+}
+
+.button:hover {
+    text-decoration:underline;
+}
+
+.checkbox {
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+

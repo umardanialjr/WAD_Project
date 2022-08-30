@@ -1,0 +1,9 @@
+
+
+.navbar{
+    background:linear-gradient(to right, #135ebd, #023246);
+}
+
+.nav_item:hover{
+    text-decoration:underline;
+} 
